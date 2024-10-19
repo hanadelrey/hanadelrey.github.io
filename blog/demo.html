@@ -4,52 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hana7zz</title>
+    <link rel="icon" href="./icon.ico" type="image/x-icon">
     <style>
         body {
             margin: 0;
         }
 
-        ul {
+        ul.horizontal {
+            background-color: black;
             list-style-type: none;
             margin: 0;
             padding: 0;
             width: 100%;
-            background-color: black;
-            position: fixed;
-
+            overflow: hidden;           
         }
 
-        ul li {
-            float: left;
-            
+        ul.horizontal li {
+            float: left;         
         }
 
-        li a {
+        ul.horizontal li a {
             padding: 20px;
             display: block;
             text-align: center;
 
         }
 
-        a:link {
+        div.vertical {
+            background-color: whitesmoke;
+            margin: 0;
+            padding: 20px 50px;
+            color: black;
+            max-width: 15%;
+            height: 100%;
+            position: fixed;
+        }
+
+        div.vertical ul li {
+            margin: 10px;
+        }
+
+        ul.horizontal li a:link {
             text-decoration: none;
             color: white;
         }
 
-        a:visited {
+        ul.horizontal li a:visited {
             text-decoration: none;
             color: white;
         }
 
+        div.vertical ul li a {
+            font-size: 16px;
+        }
+
+        div.vertical ul li a:link {
+            text-decoration: none;
+            color: black;
+        }
+        
+        div.vertical ul li a:visited {
+            text-decoration: none;
+            color: black;
+        }
+
+        div.vertical ul li a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        div.body {
+            margin: 2% 30%;
+        }
+
+        div.body ul {
+            list-style-type: square;
+        }
+
+        div.body ul li {
+            margin: 10px;
+        }
+
+        div.body ul li a {
+            font-size: 20px;
+        }
+
+        div.body ul li a:link {
+            text-decoration: none;
+            color: black;
+        }
+
+        div.body ul li a:visited {
+            text-decoration: none;
+            color: black;
+        }
+
+        div.body ul li a:hover {
+            text-decoration: underline;
+            color: black;
+        }
 
     </style>
 </head>
 <body>
-    <ul>
+
+    <ul class="horizontal">
         <li><a href="https://google.com">Home</a></li>
         <li><a href="https://google.com">News</a></li>
         <li><a href="https://google.com">Contact</a></li>
         <li><a href="https://google.com">About</a></li>
     </ul>
+
+    <div class="vertical">
+        <h1 style="text-align: center;">Hana7zz</h1>
+        <p style="font-size: 16px;">这是我的个人博客，用于记录自己的知识、生活与思考</p><br/><hr/>
+        <h2>分类</h2>       
+        <ul>
+            <li><a href="https://google.com">散文</a></li>
+            <li><a href="https://google.com">观点与想法</a></li>
+            <li><a href="https://google.com">技术知识</a></li>
+            <li><a href="https://google.com">影评</a></li>
+            <li><a href="https://google.com">分享</a></li>
+        </ul>
+    </div>
+
+    <div class="body">
+        <h1>博文推荐</h1><hr/>
+        <ul>
+            <li><a href="https://google.com"> 为什么独立思考这么难？</a></li>
+            <li><a href="https://google.com">如何完善自己的知识结构？</a></li>
+            <li><a href="https://google.com">如何保护隐私？</a></li>
+            <li><a href="https://google.com">黑塞摘录</a></li>
+            <li><a href="https://google.com">比特币的用途</a></li>
+            <li><a href="https://google.com"> 推荐最近在读的三本书</a></li>
+            <li><a href="https://google.com">光环效应引发的认知误区</a></li>
+            <li><a href="https://google.com">比尔·盖茨和理查德·斯托曼</a></li>
+            <li><a href="https://google.com">保持简单----纪念丹尼斯•里奇</a></li>
+            <li><a href="https://google.com">计算机科学必读经典</a></li>
+        </ul>
+    </div>
 </body>
 </html>
