@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.article {
+    border: hidden 2px black;
+    padding: 30px 40px;
+    width: 50%;
+    margin: auto;
+
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.article h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.article p {
+    text-indent: 2em;
+    margin: 0;
+}
