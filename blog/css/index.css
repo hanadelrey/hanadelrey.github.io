@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+
+ul.horizontal {
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;           
+}
+
+ul.horizontal li {
+    float: left;         
+}
+
+ul.horizontal li a {
+    padding: 20px;
+    display: block;
+    text-align: center;
+
+}
+
+div.vertical {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 20px 50px;
+    color: black;
+    max-width: 15%;
+    height: 100%;
+    position: fixed;
+}
+
+div.vertical ul li {
+    margin: 10px;
+}
+
+ul.horizontal li a:link {
+    text-decoration: none;
+    color: white;
+}
+
+ul.horizontal li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+div.vertical ul li a {
+    font-size: 16px;
+}
+
+div.vertical ul li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+div.vertical ul li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+div.vertical ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+div.body {
+    margin: 2% 30%;
+}
+
+div.body ul {
+    list-style-type: square;
+}
+
+div.body ul li {
+    margin: 10px;
+}
+
+div.body ul li a {
+    font-size: 20px;
+}
+
+div.body ul li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+div.body ul li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+div.body ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
