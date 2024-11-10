@@ -27,4 +27,13 @@ body {
 .article p {
     text-indent: 2em;
     margin: 0;
+    line-height: 30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
