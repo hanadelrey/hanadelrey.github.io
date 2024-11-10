@@ -69,6 +69,15 @@ header a {
     position: fixed;
 }
 
+.HolyGrail-nav h1 {
+    text-align: center; 
+    font-size: 32px;
+}
+
+.HolyGrail-nav p {
+    margin-bottom: 40px;
+}
+
 .HolyGrail-nav a {
     font-size: 16px;
 }
@@ -87,7 +96,13 @@ header a {
 }
 
 .HolyGrail-content ul {
-    list-style-type: square;
+    list-style: square;    
+    margin-bottom: 50px;
+}
+
+.HolyGrail-content hr {
+    width: 60%;
+    margin-left: 0;
 }
 
 .HolyGrail-content a {
