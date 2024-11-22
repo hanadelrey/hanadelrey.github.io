@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background-image: url(https://hana7zz.fun/blog/images/Wallpaper.jpg);
+    background-image: url(https://hana7zz.fun/blog/images/Wallpaper.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -74,10 +74,10 @@ body {
     text-decoration: underline;
 }   
 
-i:first-child {
-    margin-left: 3.5%;
+i {
+    margin-right: 10px;
 }
 
-i:nth-child(2){
-    margin-right: 10px;
+i:first-child {
+    margin-left: 3.5%;
 }
